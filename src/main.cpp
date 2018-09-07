@@ -557,7 +557,7 @@ int main() {
 				pts_y.push_back(ref_y);
 			}
 
-			// In Frenet add evenly 30m spaced points ahead of the starting reference
+			// In Frenet add evenly spaced points ahead of the starting reference
 			int spacing = 30;
 			vector<double> next_wp0 = getXY(car_s+(spacing*1), (2+4*curr_lane), map_waypoints_s, map_waypoints_x, map_waypoints_y);
 			vector<double> next_wp1 = getXY(car_s+(spacing*2), (2+4*curr_lane), map_waypoints_s, map_waypoints_x, map_waypoints_y);
